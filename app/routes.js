@@ -62,7 +62,7 @@ const userFieldSet = 'name, link, is_verified, picture';
     method: 'GET',
     uri: `https://graph.facebook.com/v2.8/${req.params.id}`,
     qs: {
-      access_token: 'EAAETWf69D8sBAOuwOuhPZATdIgCHGeQBFuMqsdOf2NJhvcfX98TxvZCyynvRU2SnGqrRvlLHPWZCap40FySpZCSayW22glFVUCiFZBbYV2ZBth7ZA3xJpOCdiKY4CWR3gEECayiA5pVkXgqxsnZCNOKtiQz1yqF59IJQczWzOxEOZCdE4pUz7kh13KaSXyBZBAZA8gykhx4fJAKMgZDZD',
+      access_token: 'enter you access_token here',
       fields: userFieldSet
     }
   };
@@ -80,7 +80,7 @@ const userFieldSet = 'name, link, is_verified, picture';
       method: 'GET',
       uri: 'https://graph.facebook.com/search',
       qs: {
-        access_token: 'EAAETWf69D8sBAI8y3TWQqAuMfk3ueoK1VkHXqRz5ltry2bnuvKbzH9AEpaDTVzZAHn7d891BTi51s1GjJlOrZCgddVnJ042wGUng6IlvR4zyWFZCNYoF7zaIgEfntZAMwRbix09mnGYP6KUYHGkj7YIGb2sNZC9sMCs6cwdBl0gZDZD',
+        access_token: 'enter you access_token here',
         q: queryTerm,
         type: searchType,
         fields: searchType === 'page' ? pageFieldSet : userFieldSet
